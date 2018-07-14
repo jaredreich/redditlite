@@ -1,0 +1,15 @@
+@mixin background-gradient-left-to-right($color1, $color2) {
+  background: $color1;
+  background: -webkit-linear-gradient(left, $color1 , $color2);
+  background: -o-linear-gradient(right, $color1, $color2);
+  background: -moz-linear-gradient(right, $color1, $color2);
+  background: linear-gradient(to right, $color1 , $color2);
+}
+
+@mixin background-gradient-topleft-to-bottomright($color1, $color2) {
+  background: $color1;
+  background: -webkit-linear-gradient(left top, $color1 , $color2);
+  background: -o-linear-gradient(bottom right, $color1, $color2);
+  background: -moz-linear-gradient(bottom right, $color1, $color2);
+  background: linear-gradient(to bottom right, $color1 , $color2);
+}

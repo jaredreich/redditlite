@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/roboto-regular.eot'); /* IE9 Compat Modes */
+	src: url('/fonts/roboto-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('/fonts/roboto-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('/fonts/roboto-regular.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('/fonts/roboto-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('/fonts/roboto-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/roboto-bold.eot'); /* IE9 Compat Modes */
+	src: url('/fonts/roboto-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('/fonts/roboto-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('/fonts/roboto-bold.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('/fonts/roboto-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('/fonts/roboto-bold.svg#Roboto') format('svg'); /* Legacy iOS */
+}

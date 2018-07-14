@@ -1,0 +1,80 @@
+@import 'fonts';
+@import 'fontawesome';
+@import 'defaults';
+
+// ====================
+// NOTIE
+
+$notie-color-success: $success;
+$notie-color-warning: $warning;
+$notie-color-error: $danger;
+$notie-color-info: $primary;
+@import '../../node_modules/notie/src/notie';
+
+// ====================
+// GENERAL
+// ====================
+
+::placeholder { // Chrome, Firefox, Opera, Safari 10.1+
+  color: #AAAAAA;
+  opacity: 1; // Firefo
+}
+:-ms-input-placeholder { // Internet Explorer 10-11
+  color: #AAAAAA;
+}
+::-ms-input-placeholder { // Microsoft Edge
+  color: #AAAAAA;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font;
+  background-color: #F2F2F2;
+}
+
+::selection {
+  background: lighten($primary, 20);
+}
+::-moz-selection {
+  background: lighten($primary, 20);
+}
+
+button {
+  border: 0;
+  border-radius: $border-radius;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 34px;
+  margin: 0;
+  outline: none;
+  padding: 0 10px;
+
+  &.outline {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  &.light {
+    border-color: #AAAAAA;
+    color: #AAAAAA;
+    text-decoration: none;
+
+    &:hover {
+      border-color: #888888;
+      color: #888888;
+    }
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $desktop;
+  width: 100%;
+}
+
+.content {
+  padding: 30px 0;
+}

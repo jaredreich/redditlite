@@ -1,0 +1,7 @@
+{
+  "extends": "jared",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
