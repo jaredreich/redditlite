@@ -1,15 +1,5 @@
 ![logo.png](/images/logo.png)
 
-> See it now: [https://redditlite.jaredreich.com](https://redditlite.jaredreich.com)
-
-Desktop demo:
-
-![demo](/images/demo.gif)
-
-Mobile demo:
-
-![mobile demo](/images/demo_mobile.gif)
-
 ### A lite version of Reddit that:
 - Shows a subreddit's list of posts
 - Has posts displayed 25 at a time
@@ -22,7 +12,15 @@ Mobile demo:
   - Link to official reddit comments
 - Refreshes/refetches posts every minute without changing scroll position
 
-# Run the app
+Desktop demo:
+
+![demo](/images/demo.gif)
+
+Mobile demo:
+
+![mobile demo](/images/demo_mobile.gif)
+
+### Run locally
 ``` bash
 # install dependencies
 npm install
@@ -40,5 +38,6 @@ npm test
 
 ### Other
 
+Mocking the official reddit color scheme for fun (link is mouse-hovered):
+
 ![screenshot-official-colors](/images/screenshot-official-colors.png)
-> Mocking the official reddit color scheme for fun (link is mouse-hovered)
